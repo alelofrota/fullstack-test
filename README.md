@@ -1,4 +1,4 @@
-# Frontend Test - Alelo Frota 2020
+# Fullstack Test - Alelo Frota 2020
 
 Estamos migrando todo o sistema legado do produto Alelo Frota para uma nova tecnologia e buscamos desenvolvedores com experiência em Angular para nos ajudar nesse desafio.
 
@@ -30,11 +30,36 @@ O Alelo Frota, que é uma plataforma que gerencia todas as suas despesas automot
 
 ---
 
+## Stack Backend
+
+- Java 8+
+- Springboot
+- JUnit
+- Oracle 12g
+- API's REST
+- Microservices
+- Noções de Docker
+- Swagger
+- JPA
+
+---
+
+## Diferencial
+- Azure Pipelines
+- Jenkins
+- Mongo
+- Dart
+- Filas JMS
+- JSP
+- Teste unitário no Front
+
+---
+
 ## Objetivo
 
-- Adaptar o [layout](./LAYOUT.md) proposto para ser responsivo, considerando mobile-first sem utilizar frameworks CSS e seguindo o [guide e padrões](./GUIDE.md) definidos.
+- Adaptar o [layout](./LAYOUT.md) proposto para ser responsivo, considerando mobile-first para ajudar você pode utilizar frameworks CSS (bootstrap, angular material, clarity, etc) e seguindo o [guide e padrões](./GUIDE.md) definidos.
 
-- Integrar os dados na tela utilizando a [API](./ENDPOINT.md) criado no [mockapi.io](https://5eb9ba733f97140016992030.mockapi.io/vehicle);
+- Integrar os dados na tela utilizando a [API](./ENDPOINT.md) criados por você no teste de backend;
 
 - Implementar busca por placa ao clicar no icone de editar e carregar dados do veiculo;
 - Implementar filtro de busca por placa do veículo e atualizar tabela;
@@ -44,12 +69,21 @@ O Alelo Frota, que é uma plataforma que gerencia todas as suas despesas automot
 ---
 
 
-### O que esperamos ver
+### O que esperamos ver frontend
 
 - Utilização de rotas;
 - Paginação
 - Filtro buscando na API
-- Layout responsivo
+- Layout responsivo (Não precisa seguir o layout tão ao pé da letra, o intuito aqui é testar seu nível de frontend e de backend)
+
+### O que esperamos ver backend
+
+- Api Rest, utilizando o máximo dos conceitos de rest
+- Teste Unitário
+- Teste com banco embarcado
+- Tratativas de Erro
+- Uso de JPA
+- Uso de swagger
 
 
 ### O que gostariamos de ver
@@ -57,8 +91,8 @@ O Alelo Frota, que é uma plataforma que gerencia todas as suas despesas automot
 - Metodologia CSS
 - Mixins, placeholders, functions, variáveis, animações, loaders...
 - Rxjs
-- Tratamento de erros
-- Teste unitário
+- Tratamento de erros no front
+- Teste unitário no front
 
 ## ***IMPORTANTE:*** 
 Iremos avaliar o codigo de todos os testes, completo ou incompleto. Entendemos que dependendo o prazo que for dado, talvez nao de tempo de finalizar. Boa sorte!
